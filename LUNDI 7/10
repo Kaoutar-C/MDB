@@ -1,0 +1,10 @@
+Ecris une algorithme qui demande à l'utilisateur d'entrer un nombre. 
+Ensuite fais en sorte que ton programme affiche tous les chiffres jusqu'à 0.
+Exemple, si l'utilisateur entre le chiffre 3, 
+alors ton programme affichera quelque chose comme ceci : 3,2,1,0
+       ECRIRE "Ecrit un nombre de 1 à 20."
+         LIRE nombre
+    TANTQUE nombre >= 0 FAIRE
+         ECRIRE nombre    
+            nombre = nombre - 1
+    FINTANTQUE 
